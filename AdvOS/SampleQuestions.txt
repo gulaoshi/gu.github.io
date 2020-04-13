@@ -1,0 +1,63 @@
+The typical x86 multicore CPU found in a desktop or laptop computer, e.g., from Intel or AMD, can be classified as:
+A. SIMD (Single instruction, multiple data)
+B. MIMD (Multiple instructions, multiple data)
+C. SISD (Single instruction, single data)
+D. MISD (Multiple instruction, single data) 
+
+ANS: ________________
+B
+
+According to [David13] "Everything You Always Wanted to Know About Synchronization but Were Afraid to As", what is the main source of scalability problems in multicore synchronization?
+A. Hardware
+B. Software
+C. Middleware
+C. None of the above
+
+ANS:_________________
+A
+
+
+In [Clements13] "The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors", what does it mean when we say a software system is "scalable"?
+A. System performance stays constant with increasing number of cores on a multicore processor.
+B. System performance increases linearly with increasing number of cores on a multicore processor.
+C. System performance deteriorates with increasing number of cores on a multicore processor.
+D. System performance is independent of the underlying hardware platform.
+
+ANS: ________________
+B
+
+Which of the following does NOT describe [Rossbach11], "Rossbach, PTask: Operating System Abstractions To Manage GPUs as Compute Devices"?
+A. to provide a dataflow programming model for GPU.
+B. to reduce unnecessary memory transfers between CPU and GPU.
+C. to provide more OS support for GPUs
+D. to build next-generation GPU microarchitecture
+
+ANS: ________________
+D
+
+In [Kim14] "GPUnet: Networking Abstractions for GPU Programs", RDMA (Remote Direct Memory Access) is used to:
+A. perform memory transfers between CPU and GPU
+B. offload transport layer processing to NIC (Network Interface Card)
+C. maintain cache coherence between CPU and GPU
+D. reduce unnecessary memory transfers between CPU and GPU.
+
+ANS: ________________
+B
+
+Cache coherence protocols are used to:
+A. lock cache lines so they are not pushed out to memory
+B. keep data consistent across multiple private caches on a multicore processor
+C. implement virtual memory on a multicore processor
+D. perform cache partitioning to give each application its own private cache space and avoid cache contention on a multicore processor.
+
+ANS: ________________
+B
+
+In [Blagodurov11] "Case for NUMA-aware Contention Management on Multicore Systems", how to decide if two threads will hurt each other?s performance if co-scheduled in the same NUMA domain?
+A.	By using Per Entity Load Tracking Metric 
+B.	By measuring Last-Level Cache (LLC) miss rate
+C.	By using AMD CPU¡¯s Miss Address Buffer (MAB)
+D.	By using high-resolution timestamps to measure  thread start and finish times
+
+ANS: ________________
+B
